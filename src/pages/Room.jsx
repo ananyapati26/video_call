@@ -12,7 +12,7 @@ const Room = () => {
             serverSecret, 
             roomId, 
             Date.now().toString() ,  
-            "Ananya Pati");
+            "Enter your name");
         const zp = ZegoUIKitPrebuilt.create(kitToken);
         zp.joinRoom({
             container: element,
